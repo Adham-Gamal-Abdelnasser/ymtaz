@@ -1,0 +1,148 @@
+/* ! Standards */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+:root {
+    --btn-bg-color: #DDB762;
+    --item-color: #2C4768;
+}
+body {
+    background-color: #f9f9f9;
+}
+.btn-bg-color {
+    background-color: var(--btn-bg-color);
+}
+.font-main-color {
+    color: var(--btn-bg-color);
+}
+.activate {
+    background-color: var(--item-color);
+    color: #fff !important;
+}
+.item-color {
+    color: var(--item-color);
+}
+.section-bg {
+    background-color: var(--item-color);
+}
+
+
+
+/* ! Header */
+.home-img {
+    transform: scale(1.6) translateY(50px);
+}
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.login-btn {
+    border: 1px solid var(--btn-bg-color);
+}
+.signup-btn {
+    background-color: var(--btn-bg-color);
+}
+.social-links {
+    top: 20px;
+    left: 20px;
+}
+.download {
+    width: fit-content;
+}
+.download .txt {
+    text-align: left;
+}
+.download .txt p:first-child {
+    font-size: 0.6rem;
+}
+.platform {
+    width: 40px;
+}
+.platform-huawi {
+    width: 60px;
+}
+
+
+/* ! Navbar */
+.nav-logo {
+    width: 130px;
+}
+
+
+/* ! Services */
+.service{
+    color: #000;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.service , .service span ,.card {
+    transition: 0.5s;
+}
+.service span {
+    color: var(--btn-bg-color);
+}
+.service:hover  , .card:hover{
+    background-color: var(--btn-bg-color);
+    color: #fff;
+    transform: scale(1.1);
+}
+.service:hover span {
+    color: #fff;
+    background-image: linear-gradient(135deg, var(--btn-bg-color) 50%, #000);
+}
+
+
+/* ! Assisting systems */
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+/* !New Users */
+.user {
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: 50%;
+}
+.user img {
+    transform: translateY(-14px);
+}
+.card-text {
+    font-size: 0.8rem !important;
+}
+
+
+/* ! Slider of users */
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px ;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: var(--btn-bg-color) !important;
+}
+
+
+/* ! Sponsers */
+.sponser {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* ! Slider of sponsers */
+button[data-bs-slide="prev"] {
+    left: 0px;
+    width: fit-content;
+}
+button[data-bs-slide="next"] {
+    right: 0px;
+    width: fit-content;
+}
+
